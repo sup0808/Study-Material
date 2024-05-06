@@ -1,1 +1,14 @@
+1.) Explain OOP Concepts.
+https://www.javatpoint.com/java-oops-concepts
+--------------------------------------------------------
 
+2.) Differences between abstract classes and interfaces?
+https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html
+
+3.)Difference between method overloading and overriding.
+https://www.shiksha.com/online-courses/articles/difference-between-overloading-and-overriding/
+
+4.)What does it means to say that a String is immutable?
+https://www.geeksforgeeks.org/java-string-is-immutable-what-exactly-is-the-meaning/
+
+ Impoertant-- Java, the Integer class is immutable, meaning its values cannot be changed once they are set. However, when you perform operations on an Integer, a new instance is created to hold the result. Here, the + operation creates a new Integer object, and the original object remains immutable.
