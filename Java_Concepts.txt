@@ -12,3 +12,71 @@ https://www.shiksha.com/online-courses/articles/difference-between-overloading-a
 https://www.geeksforgeeks.org/java-string-is-immutable-what-exactly-is-the-meaning/
 
  Impoertant-- Java, the Integer class is immutable, meaning its values cannot be changed once they are set. However, when you perform operations on an Integer, a new instance is created to hold the result. Here, the + operation creates a new Integer object, and the original object remains immutable.
+
+5.)What is serialization? How do you implement it?
+https://medium.com/@kkunalandroid/serializable-in-android-with-example-38eb8b7334ea
+https://medium.com/techmacademy/how-to-implement-and-use-a-parcelable-class-in-android-part-1-28cca73fc2d1
+https://www.geeksforgeeks.org/difference-between-serializable-and-parcelable-in-android/
+
+6.)What is the difference between a Checked Exception and an Un-Checked Exception?
+https://www.geeksforgeeks.org/checked-vs-unchecked-exceptions-in-java/
+
+7.) How does the try{}, catch{}, finally works?
+https://www.geeksforgeeks.org/flow-control-in-try-catch-finally-in-java/
+
+8.)What is the difference between "throw" and "throws" keyword in Java?
+https://www.geeksforgeeks.org/throw-throws-java/
+https://www.geeksforgeeks.org/difference-between-throw-and-throws-in-java/
+
+9)What is volatile modifier?
+https://www.geeksforgeeks.org/volatile-keyword-in-java/
+
+10)What is transient modifier?
+https://www.geeksforgeeks.org/transient-keyword-java/
+
+11)What are anonymous classes?
+Anonymous classes enable you to make your code more concise. They enable you to declare and instantiate a class at the same time. They are like local classes except that they do not have a name. Use them if you need to use a local class only once.
+
+new Runnable() {
+    @Override
+    public void run() {
+        ...
+    }
+}
+
+12.) What is the hashCode() and equals() used for?
+https://www.javatpoint.com/equals-and-hashcode-in-java
+
+13) When would you make an object value final?
+https://www.javatpoint.com/final-object-in-java#:~:text=If%20we%20use%20the%20final,reference%20can't%20be%20changed.
+
+14)What are these final, finally and finalize keywords?
+final is a keyword used in Java to restrict the modification of a variable, method, or class. finally is a block used in Java to ensure that a section of code is always executed, even if an exception is thrown. finalize is a method in Java used to perform cleanup processing on an object before it is garbage collected.
+
+15) What does the static word mean in Java
+https://www.geeksforgeeks.org/static-keyword-java/
+
+16) Difference between StringBuffer and StringBuilder?
+https://www.javatpoint.com/difference-between-stringbuffer-and-stringbuilder
+
+17) What is the difference between fail-fast and fail-safe iterators in Java?
+
+The Java Collection supports two types of iterators; Fail Fast and Fail Safe. These iterators are very useful in exception handling. The Fail fast iterator aborts the operation as soon it exposes failures and stops the entire operation. Comparatively, Fail Safe iterator doesn't abort the operation in case of a failure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
