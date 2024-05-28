@@ -1,0 +1,15 @@
+1) Room DB 
+https://developer.android.com/training/data-storage/room
+
+2) Work Manager
+https://blog.mindorks.com/integrating-work-manager-in-android/
+
+https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712
+
+https://developer.android.com/develop/background-work/background-tasks/persistent/getting-started/define-work#:~:text=under%20these%20restrictions.-,Retry%20and%20backoff%20policy,work%20after%20the%20first%20attempt.
+
+3.) Navigation 
+https://medium.com/@muhamed.riyas/navigation-component-the-complete-guide-c51c9911684
+
+4.)ViewModel
+https://medium.com/@KaushalVasava/viewmodels-internal-working-in-android-a-full-guide-757afaf6510
