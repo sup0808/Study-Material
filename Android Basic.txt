@@ -1,0 +1,16 @@
+1) AIDl 
+https://medium.com/@peternjuguna76/understanding-android-aidl-a-comprehensive-guide-b4d97253b169
+https://budhdisharma.medium.com/aidl-and-its-uses-in-android-e7a2520093e
+
+2) Job Schduler
+https://medium.com/@kiitvishal89/android-jobscheduler-schedule-your-jobs-like-a-master-cfa0d80e5f10
+https://medium.com/@developerom/job-scheduler-in-android-easy-way-55e5df64091e
+
+3) Get Location
+https://www.geeksforgeeks.org/how-to-get-current-location-in-android/
+https://developer.android.com/develop/sensors-and-location/location/retrieve-current
+
+4)Fragment Lifecyle
+https://stackoverflow.com/questions/42218546/understanding-fragments-lifecycle-methods-calls-during-fragment-transaction?newreg=30abae41887f410ba3d9e35fc6587b71
+
+https://stackoverflow.com/questions/18634207/difference-between-add-replace-and-addtobackstack
