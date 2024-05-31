@@ -1,0 +1,8 @@
+1) Null safety
+https://medium.com/@ChindaVibhor/null-safety-in-kotlin-ecaa67a6b397
+
+The basic difference between the Safe call and Null check is that we use Null checks (!!) only when we are confident that the property can’t have a null value. 
+And if we are not sure that the value of the property is null or not then we prefer to use Safe calls(?.).
+                                                                                                      
+2) Lazy and latinit
+https://medium.com/huawei-developers/kotlin-lateinit-vs-by-lazy-initialization-example-tutorial-c19d84216480
