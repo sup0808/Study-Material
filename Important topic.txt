@@ -1,0 +1,40 @@
+1) How to manage offline caching.
+https://www.geeksforgeeks.org/how-to-implement-offline-caching-using-networkboundresource-in-android/
+
+2) LocationManager vs Google Play Services(FusedLocationProviderClient)
+Answer--- https://stackoverflow.com/questions/33022662/android-locationmanager-vs-google-play-services
+--------------
+LocationManager - Context.getSystemService(Context.LOCATION_SERVICE)
+
+ACCESS_COARSE_LOCATION - provide less accurate location(city block) but faster and does not drain a battery so much
+
+NETWORK_PROVIDER - uses cell towers, wifi access points
+PASSIVE_PROVIDER - subscribes on location updates when somebody else in the system uses another providers
+ACCESS_FINE_LOCATION - provides better and accurate location(up to few meters). Uses the same providers as ACCESS_COARSE_LOCATION
+
+GPS_PROVIDER - satellites are used
+Google API Location Services - GoogleApiClient based on Google Play Services. High level API with access to location events which go through the system. It has better battery performance but could not be installed on some devices
+
+Fused Location Provider - automatically select an appropriate provider based on your needs and device conditions
+
+
+usedLocationProviderClient
+
+For the 1st fetch, the location must not be null(i.e: Some other app need to update the Lastknown location in the GoogleplayService database. if it is null, need work around)
+For the next sequential Fetch, it uses requestLocationUpdates() method to fetch the location.
+The location fetch is only based on locationRequest.setInterval(milliseconds)and setFastestInterval(milliseconds), not based on user location change
+The LatLng value returned has contain only 7 decimal values (e.g: 11.9557996, 79.8234599), not as accurate
+Recommended, when your app requirement takes current location distance negligible of (50 - 100 meters accuracy)
+Effective in Battery usage.
+LocationManager Api
+
+The user location fetch is invoked using locationManager.requestLocationUpdates()
+The location fetch based on user location change and time intervals locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, milliseconds, mindistance, Mylocationlistener)
+
+The LatLng value returned has contain 14 decimal values (e.g: 11.94574594963342 79.81166719458997) accurate location values
+
+Recommended for location based app, when needs more accuracy even in meters.
+Battery usage is based on fetch interval and fetch distance.
+
+2) Complie SDK,Target SDk
+https://medium.com/@iamnajmudheen7311/demystifying-target-sdk-and-compile-sdk-in-android-development-6ec401e79ade#:~:text=The%20compile%20SDK%20provides%20the,tested%20and%20optimized%20your%20application.
