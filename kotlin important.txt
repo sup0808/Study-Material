@@ -1,3 +1,6 @@
+1) Important topic 
+https://medium.com/@navinprasad/kotlin-advanced-topics-b0786f63a814
+
 1) Null safety
 https://medium.com/@ChindaVibhor/null-safety-in-kotlin-ecaa67a6b397
 
