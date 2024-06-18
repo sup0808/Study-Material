@@ -1,0 +1,6 @@
+1.) distinct() and distinctBy() on list
+https://stackoverflow.com/questions/65361371/what-does-this-distinctby-method
+
+As you can see, filter will not give you an unique list. You can do that by calling toSet() 
+on your list before the filter (and it will still be a List after the filter). Or by calling distinct() after the filter. The distinct() will actually just 
+create a Set and turn it back on into a List, so I'd suggest to just use toSet() before the filter.
