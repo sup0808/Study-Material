@@ -14,3 +14,5 @@ https://developer.android.com/develop/sensors-and-location/location/retrieve-cur
 https://stackoverflow.com/questions/42218546/understanding-fragments-lifecycle-methods-calls-during-fragment-transaction?newreg=30abae41887f410ba3d9e35fc6587b71
 
 https://stackoverflow.com/questions/18634207/difference-between-add-replace-and-addtobackstack
+5) Acitivity lifecysle
+https://stackoverflow.com/questions/7618703/activity-lifecycle-oncreate-called-on-every-re-orientation
