@@ -16,3 +16,7 @@ https://stackoverflow.com/questions/42218546/understanding-fragments-lifecycle-m
 https://stackoverflow.com/questions/18634207/difference-between-add-replace-and-addtobackstack
 5) Acitivity lifecysle
 https://stackoverflow.com/questions/7618703/activity-lifecycle-oncreate-called-on-every-re-orientation
+
+https://stackoverflow.com/questions/38259878/if-multi-window-lifecycle-affect-activity-lifecycle-in-android-n
+
+https://stackoverflow.com/questions/39275753/how-to-display-two-activities-in-android-using-multi-window-mode
