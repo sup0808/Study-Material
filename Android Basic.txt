@@ -20,3 +20,6 @@ https://stackoverflow.com/questions/7618703/activity-lifecycle-oncreate-called-o
 https://stackoverflow.com/questions/38259878/if-multi-window-lifecycle-affect-activity-lifecycle-in-android-n
 
 https://stackoverflow.com/questions/39275753/how-to-display-two-activities-in-android-using-multi-window-mode
+
+6)Service/ Intentservice
+https://blog.mindorks.com/service-vs-intentservice-in-android/#:~:text=You%20can%20use%20Service%20for,the%20IntentService%20by%20calling%20Context.
