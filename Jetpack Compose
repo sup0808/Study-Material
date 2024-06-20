@@ -1,2 +1,6 @@
 https://github.com/himanshuGaur684
 https://github.com/hide-your-code/weather_compose_clean_architecture/tree/master
+
+
+--- navigation logic in sepaerate class
+https://github.com/SachinRupani/LoginWithJetpackCompose/blob/main/app/src/main/java/com/jodhpurtechies/composelogin/ui/screens/NestedNavigations.kt
