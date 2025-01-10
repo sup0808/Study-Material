@@ -10,3 +10,7 @@ And if we are not sure that the value of the property is null or not then we pre
                                                                                                       
 2) Lazy and latinit
 https://medium.com/huawei-developers/kotlin-lateinit-vs-by-lazy-initialization-example-tutorial-c19d84216480
+
+4) Is there any difference between == operator and === operator?
+https://medium.com/@shobhith/difference-between-and-in-kotlin-9edc281ba27c
+
