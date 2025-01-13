@@ -1,5 +1,6 @@
 1.) Explain OOP Concepts.
 https://www.javatpoint.com/java-oops-concepts
+https://www.geeksforgeeks.org/how-many-types-of-memory-areas-are-allocated-by-jvm/
 --------------------------------------------------------
 
 2.) Differences between abstract classes and interfaces?
