@@ -1,9 +1,8 @@
 1) AIDl 
 https://medium.com/@peternjuguna76/understanding-android-aidl-a-comprehensive-guide-b4d97253b169
-https://budhdisharma.medium.com/aidl-and-its-uses-in-android-e7a2520093e
+https://budhdisharma.medium.com/aidl-and-its-uses-in-android-e7a2520093e -- Definition
 
 2) Job Schduler
-https://medium.com/@kiitvishal89/android-jobscheduler-schedule-your-jobs-like-a-master-cfa0d80e5f10
 https://medium.com/@developerom/job-scheduler-in-android-easy-way-55e5df64091e
 
 3) Get Location
