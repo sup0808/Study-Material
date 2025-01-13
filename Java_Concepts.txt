@@ -4,7 +4,17 @@ https://www.geeksforgeeks.org/how-many-types-of-memory-areas-are-allocated-by-jv
 --------------------------------------------------------
 
 2.) Differences between abstract classes and interfaces?
+decoupling is a situation in which two or more activities are separated, or do not develop in the same way:
+
 https://www.infoworld.com/article/2077421/when-to-use-abstract-classes-vs-interfaces-in-java.html
+
+3.) RealTime examplle of Polymorphisam 
+https://www.educative.io/answers/types-of-polymorphism-with-real-life-examples
+1) let's understand polymorphism with a real-life example. Consider a person, who can have multiple characteristics at a time, the person can be a father, a son, and an employee at the same time. The same person acts differently in different scenarios, this shows polymorphism.
+2) Shape can have of differnt tpe featue like area,and shape can be of reactnagle. square, circle.
+
+4.) RealTime examplle of Abstaction 
+in Shape class, we define only core functionality like area but hiding implementaion and differnet implematations will be provieded by childs classes for ddiffern  behaviour.
 
 3.)Difference between method overloading and overriding.
 https://www.shiksha.com/online-courses/articles/difference-between-overloading-and-overriding/
