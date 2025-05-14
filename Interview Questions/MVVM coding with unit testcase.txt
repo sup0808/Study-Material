@@ -1,0 +1,276 @@
+Unit test case for Mvvm viewmodel
+Inbox
+
+Supriya.Gupta2@cognizant.com
+Tue, May 13, 7:17 AM (1 day ago)
+to me
+
+interface CounterRepo{
+
+    suspend fun getCounterClick(val counter : Int)
+
+    
+
+    suspend fun getUser() : List<User>
+
+    
+
+    suspend fun getMoreUser() : List<User>
+
+}
+
+ 
+
+class CounterRepo @inject constructor(val userAPiService : UserApiService) :  CounterRepo{
+
+   
+
+  private var _counter = MutableStateFlow<Int>(0)
+
+       val counter = StateFlow<Int>()
+
+      get() = _counter
+
+   
+
+   suspend fun getCounterClick(){
+
+   _counter.value = counter++
+
+   
+
+     suspend fun getMoreUser() : List<User> = userAPiService.getMoreUser()
+
+   
+
+ 
+
+     
+
+   }
+
+   
+
+   
+
+   
+
+   
+
+   @HiltViewModel
+
+   class CounterViewModel @inject constructor(val UserApiRepo : CounterRepo) : ViewModel(){
+
+    
+
+ 
+
+ 
+
+     private var _counter = MutableStateFlow<Int>(0)
+
+       val counter = StateFlow<Int>()
+
+      get() = _counter
+
+       
+
+       
+
+    
+
+      fun getAllData(){
+
+      val list =  MutableListOf<USer>()
+
+        viewModelScope.launch{
+
+            val firstApiCall = async{UserApiRepo.getUser() }
+
+                val allUserData = async{UserApiRepo.getUser() }
+
+              list.add(firstApiCall.await())
+
+                    list.add(allUserData.await())
+
+        }
+
+      }
+
+      
+
+      
+
+      @HiltAndroidTest
+
+      @OptIn(ExperimentalAPi::class)
+
+      class ViewModelTest{
+
+      
+
+      @get:Rule
+
+      val hilt = HiltAppRule()
+
+      
+
+      
+
+      val counterRepo = mockk<CounterRepo>{
+
+      
+
+     
+
+      }
+
+      
+
+      
+
+        @Test
+
+       fun getAllDataTest() = runTest{
+
+         val viewModel = CounetrViewModel(counterRepo)
+
+        
+
+        viewModel.getAllData()
+
+        
+
+        viewModel.counter.test{
+
+        
+
+         
+
+        }
+
+        
+
+        asserts()
+
+       }
+
+      
+
+       @Before
+
+       fun setUp(){
+
+       Mockit.initMock(this)
+
+       }
+
+       
+
+        @After
+
+       fun tearDown(){
+
+       
+
+       }
+
+       
+
+      
+
+       
+
+       
+
+ 
+
+      
+
+      }
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+     
+
+   
+
+   }
+
+   
+
+   
+
+   @AndroidEntryPoint
+
+   Class CounterActivity : Acticity{
+
+   
+
+   @inject
+
+   val counterViewModel : CounterViewModel = hiltViewModel()
+
+       
+
+     ovveride onCreate(){
+
+      
+
+      binding.button.onClickListener(){
+
+        counterViewModel.getCounter()
+
+      }
+
+      }
+
+      
+
+      fun observeCounterData(){
+
+      counterViewModel.counter.collect{
+
+        binding.button.text = it
+
+
+
+Get Outlook for Android
+This e-mail and any files transmitted with it are for the sole use of the intended recipient(s) and may contain confidential and privileged information. If you are not the intended recipient(s), please reply to the sender and destroy all copies of the original message. Any unauthorized review, use, disclosure, dissemination, forwarding, printing or copying of this email, and/or any action taken in reliance on the contents of this e-mail is strictly prohibited and may be unlawful. Where permitted by applicable law, this e-mail and other e-mail communications sent to and from Cognizant e-mail addresses may be monitored.
+Success!Fixed!Done.
