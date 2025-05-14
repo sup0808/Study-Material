@@ -1,0 +1,25 @@
+Difference between interface and abstract class
+What’s the meaning of state in abstract class.
+What is difference between abstract and interface in terms of functions.
+What is overloading and overriding.
+How to perform background operation on update data on ui thread using coroutine.
+Write code for compose the have horizontal and on textbox and button right of that textbox.
+There is list of image, how can show using Column .
+Write code for MVVM clean flow with hilt annotation for making API request for getting address list with first name, address.
+Code for MVVM with coroutine
+What is use of flowOn()
+What is return type of launch.
+Suppose making multiple api request , If parents api request is failed then child request will be failed or not?
+Difference between merge and rebase.
+What annotation is used in mockito.
+Difference between verify and assert.
+How to test api in mockito. (MockitoWebServer)
+Diff between action and event
+What is awaitItem( ) in test case
+What is InsatntTaskExceutor.
+What is advanceUntilIdel
+How to pass username and password to viewmodel using state.
+What is sharedviewmodel
+How to use in compose.
+derivedStateOf  
+ 
