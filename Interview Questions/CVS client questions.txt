@@ -1,0 +1,32 @@
+1.	1.There is one button, on click of button value inside textview should be incremented and suppose initial value in textbox in 0 .Write code using view-model, repository following MVVm and dependency injection.
+2.	Write the same code using flow instead LiveData
+3.	What is difference between LiveData and MutableLiveData ,which one you will expose to ui.
+4.	Write code for coroutine in viewModel if you make API request .
+5.	Write code for making concurrent API request.
+6.	What is return type of async.
+7.	How to make api request in serial.
+8.	What is suspend function.How is its working in background.
+9.	What is content provider.
+10.	How to mange security in the app.
+11.	What is SSL Pinning.
+12.	How to improve performance of ui for faster loading.
+13.	What is recomposition in compose.
+14.	What is difference between state flow and shared flow in regard to counter value.
+15.	Have you used shared flow and where shared flow can be used.
+16.	What is annotation and how does annotation work generally.
+17.	Have you use Launch effect inside the viewModel.
+18.	Where you used Launch effect and when it execute .
+19.	What is disposable effect and in which scebnario you have used .
+20.	How to navigate to multiple composable .
+21.	How to handle back button in navigation in compose.
+22.	Where do you store Secured data in the app.
+23.	How web view will know user is login or not.
+24.	WHat procedure you will to follow  start new app.
+25.	What is use of lazyColumn ? What is benefit of that.
+26.	What is difference between LazyColumn and column.
+27.	How lazyColumn  could work
+28.	How to handle accessibility in compose
+29.	Give one bug issue which you fixed.
+30.	Explain how yo can fixed accessibly issue.
+31.	Testcase for viewmodel
+
