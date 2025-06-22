@@ -1,25 +1,102 @@
-Difference between interface and abstract class
-What’s the meaning of state in abstract class.
-What is difference between abstract and interface in terms of functions.
-What is overloading and overriding.
-How to perform background operation on update data on ui thread using coroutine.
-Write code for compose the have horizontal and on textbox and button right of that textbox.
-There is list of image, how can show using Column .
-Write code for MVVM clean flow with hilt annotation for making API request for getting address list with first name, address.
-Code for MVVM with coroutine
-What is use of flowOn()
-What is return type of launch.
-Suppose making multiple api request , If parents api request is failed then child request will be failed or not?
-Difference between merge and rebase.
-What annotation is used in mockito.
-Difference between verify and assert.
-How to test api in mockito. (MockitoWebServer)
-Diff between action and event
-What is awaitItem( ) in test case
-What is InsatntTaskExceutor.
-What is advanceUntilIdel
-How to pass username and password to viewmodel using state.
-What is sharedviewmodel
-How to use in compose.
-derivedStateOf  
+
+Kotlin
+
  
+
+   var str : String? = "supriya"
+
+    
+
+  val dat=  str?.let{
+
+        println(it.length)
+
+    } ?:  println("test")
+
+    
+
+    
+
+How Kotlin is better java with two examples.
+How do you handle Null safety in Kotlin(Using Safe call operator).
+What is other way of handling null safety (Using let operator)
+How do you use let operator.
+What is extension function and give example of extension function.
+Difference between var and val.
+What is open keyword.
+What is Elvis operator.
+Can we use Elvis with let operator?
+What is sealed class.
+How sealed class is different from sealed class and enum.
+What is singleton class design pattern.
+How will achieve singleton in Kotlin.
+What is coroutine and how is different from traditional  thread.
+What is await in async.
+What is Lazy keyword and what is use of that.
+What id lateinit and how is differ from Lazy.
+If we access lateinit without initilization , what will happen.
+What exception will be thrown if lateinit not initialized.
+ 
+
+Android
+
+What is activity and please tell lifecycle of activity.
+What is difference onStart() and onResume().
+Which one is gets invoked first on Resume(.
+What is fragment and how is different from activity.
+How do you communicate between activity and fragment.(Using ViewModel and interface listener)
+What is intent.
+What is difference between implicit intent and explicit
+Example of implicit and explicit intent.
+What is ANR.
+How to avoid ANR give one example for handling.
+What are services.
+ 
+
+Architecture
+
+ 
+
+What is MMVM.
+In MVVM , which layer you should write the business logic.(ViewModel and in case of Clean use Domain layer)
+What is Live Data.
+When we should use LiveData and MutableLiveData.
+What is difference between setValue and postValue.
+When you exposing data to view which Live data / MutableLiveData will you use? (LiveData)
+How liveData is different from flow.
+What jetpack library used?
+What is Dependency injection?
+What is benefit of DI.
+How Jetpack compose is different from traditional UI designing.
+What is remember keyword in compose and what is use of that.
+Which network library used in project.
+What is mediatorLiveData.
+What is ViewBinding.
+Difference between ViewBinding and DataBinding.
+What’s is RX java.
+What is map, filter operator in RX java.
+What library have used for writing test case.
+What do you used for using static keyword in testing.
+Have used Power mock?
+While developing any module , if you face any issue how will you handle the case.
+Which blogs will you prefer for RND.
+Suppose you one common function , will you write code for that function again again or you will create utility function
+Once you deployed the code , is there any log file for app for error.(Firebase Crashlatyics)
+Any tool for capture the logs.
+Did you face any code issue for production.
+How did you analyze issue for production defect.
+Are you using any API for restful services.
+ 
+
+Coding
+
+ 
+
+Write the function for getting first repeating character for given string.
+   Input : google
+
+  Output : o
+
+ 
+
+  Input : helo
